@@ -1,5 +1,6 @@
 # Concurrency problems
 In this repo I tried to solve 4 classical concurrency programming problems using Linux system calls and basic synchronization structures like mutexes and semaphores in C.
+All programs have adjustable parameters like number of producers or producers in the Producer-consumer problem, or maximum time of philosopher eating in Dining philosophers problem.
 
 Below are formulations of each problems:
 
@@ -43,7 +44,7 @@ of them can eventually eat something, avoiding
 unnecessary waiting and following the rules of access to
 forks.
 
-## Sleeing barbers problem
+## Sleeing barbers problem - TODO
 There is a barbershop with p chairs in the waiting room
 and n barber chairs used by barbers to serve their
 customers.
